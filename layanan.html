@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Rumah Sakit Cideres</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+ 
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+   
+   
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/style.css">
+<body>
+	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light ftco-nav" id="ftco-navbar">
+	    <div class="container">
+	      <a class="navbar-brand"> <img href="index.html" src="images/logo.png" class="logo" width="250"></a>
+	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+	        <span class="oi oi-menu"></span> Menu
+	      </button>
+
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item"><a href="Index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item "><a href="tentang.html" class="nav-link">Tentang</a></li>
+	          <li class="nav-item active"><a href="layanan.html" class="nav-link">Layanan</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+			</ul>	
+	    <div class="box">
+			<input type="text" placeholder="Search...">
+		<button class="btn btn-primary btn-sm" type="submit">Submit</button>
+  		</div>
+		</div>
+	      </div>
+	    
+	  </nav>
+    <!-- selesai nav -->
+ <section class="home-slider owl-carousel">
+      <div class="slider-item bread-item" style="background-image: url(images/timg_0019.png);" data-stellar-background-ratio="0.5">
+        <div class="overlay"></div>
+        <div class="container" data-scrollax-parent="true">
+          <div class="row slider-text align-items-end">
+            <div class="col-md-7 col-sm-12 ftco-animate mb-5">
+              <p class="breadcrumbs" data-scrollax=" properties: { translateY: '70%', opacity: 1.6}"><span class="mr-2"><a href="index.html">Home</a></span> <span>layanan</span></p>
+              <h1 class="mb-3" data-scrollax=" properties: { translateY: '70%', opacity: .9}">Layanan Kami</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+	<div class="page-title style2" style="padding: 20px 0;
+    text-align: left;">
+	<div class="container">
+	<div class="row">
+	<div class="roll-spacer h50" style=" height: 50px;"></div>
+	<div class="col-md-12 col-xs-12">
+		<h1 style="text-align:center;"> Fasilitas Rawat Inap</h1>
+	</div><!-- /.col-md-6 -->
+	</div><!-- /.row -->
+	</div><!-- /.container -->
+	</div>
+
+	<section class="roll-section phone" style=" background-image: url(images/bg-section-3.jpg); padding-bottom: 5%;">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-6">
+	<div class="input-wrap"  style="padding-top:10%; ">
+	Pilih Kategori Rawat Inap
+		<select name="cars" id="selectBox1" onchange="changeFunc();" style=" width: 100%;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    line-height: 22px;
+    width: 100%;
+    height: auto;
+    padding: 13px 19px;
+    border-radius: 0;
+    -webkit-appearance: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: border ease .238s;
+    -moz-transition: border ease .238s;
+    transition: border ease .238s;">
+			<option>-Pilih Kategori Rawat Inap-</option>
+			<option>Internis Dan Bedah</option>
+			<option>Kebidanan Dan Kandungan</option>
+			<option>Anak</option>
+			<option>Intensive</option>
+		</select>
+	</div>
+	</div>
+	<div class="col-md-6">
+	<div class="input-wrap" style="padding-top:10%; ">
+	Pilih Kelas Rawat Inap
+		<select name="cars" id="selectBox2" onchange="changeFunc2();"style=" width: 100%;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    line-height: 22px;
+    width: 100%;
+    height: auto;
+    padding: 13px 19px;
+    border-radius: 0;
+    -webkit-appearance: none;
+    text-shadow: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: border ease .238s;
+    -moz-transition: border ease .238s;
+    transition: border ease .238s;">
+			<option>-Pilih Kelas Rawat Inap-</option>
+			<option>Executive A</option>
+			<option>VIP A</option>
+			<option>Kelas II B</option>
+			<option>ISO</option>
+			<option>Kelas III B</option>
+			<option>Kelas I B</option>
+			<option>VIP B</option>
+			<option>Deluxe B</option>
+			<option>ICU - KAMAR</option>
+			<option>ICU - ISO</option>
+			<option>Kelas III A</option>
+			<option>Kelas II A</option>
+			<option>Kelas I A</option>
+			<option>Deluxe A</option>
+		</select>
+	</div>
+	</div>
+	</div><!-- /.col-md-12 -->
+	</div><!-- /.row -->
+	</div><!-- /.container -->
+	</section>
+
+	<div class="roll-section" style="position: relative;
+    padding: 50px 0;
+    background-color: #fff;">
+	<div class="container">
+	<div class="row">
+	<div class="col-md-6">
+	<div class="roll-iconbox style2 clearfix justin">
+	<div class="icons image">
+		<img src="images/icon-112.png" alt="image" style="float: left;">
+	</div>
+		<h3><a href="#">MUTU PELAYANAN TERBAIK</a></h3>
+			<p style="text-align: justify; margin-left: 13%;">Memberikan pelayanan kesehatan kepada pasien dan keluarganya secara profesional, sesuai Standar Akreditasi Rumah Sakit Kementrian Kesehatan Republik Indonesia dan Sistem Manajemen Mutu ISO 9001-2008 berlandaskan Visi Misi.</p>
+	</div><!-- /.roll-iconbox -->
+	<div class="roll-spacer h40"></div>
+	<div class="roll-iconbox style2 clearfix justin">
+	<div class="icons image">
+		<img src="images/icon-111.png" alt="image" style="float: left;">
+	</div>
+		<h3><a href="#">BUDAYA I-CARE</a></h3>
+			<p style="text-align: justify; margin-left: 13%;">Melayani masyarakat dengan penuh kepedulian sesuai dengan Budaya RSUD Cideres yakni Budaya I-CARE yang berlandaskan nilai-nilai.</p>
+	</div><!-- /.roll-iconbox -->
+	<div class="roll-spacer h40"></div>
+	<div class="roll-iconbox style2 clearfix justin">
+	<div class="icons image">
+		<img src="images/icon-113.png" alt="image" style="float: left;">
+	</div>
+		<h3><a href="#">PENGEMBANGAN LAYANAN</a></h3>
+			<p style="text-align: justify; margin-left: 13%;">Kami terus meningkatkan kualitas pelayanan dengan terus mengembangkan fasilitas medis maupun kemampuan tenaga-tenaga medis dengan tujuan memberikan yang terbaik bagi masyarakat umum.</p>
+	</div><!-- /.roll-iconbox -->
+	</div><!-- /.col-md-6 -->
+	<div class="col-md-6" style="padding-top: 0%;">
+		<h3 align="center"><a href="#">Motion Graphic Pelayanan Kefarmasian</a></h3>
+		<p  align="center"><a href="#">-Education-</a></p>
+	<div class="embed-responsive embed-responsive-16by9">
+    <iframe class="embed-responsive-item" src="images/Motion Graphic Pelayanan Kefarmasian.mp4"></iframe>
+
+	</div><!--/embed-->
+	</div><!-- /.col-md-6 -->
+	</div><!-- /.row -->
+	</div><!-- /.container -->
+	</div>
+
+<section>
+<div class="container-fluid">
+<div class="row" style="background-color: #F0FFFF">
+	<div class="col-md-12"></div>
+	<div class="col-md-4 garis">
+	<div class="roll-toggle justin">
+		<h3 class="toggle-title" align="center">Pelayanan Medis</h3>
+	<div class="toggle-content">
+		<center><img class="alignleft" src="images/3-1.jpg" alt="" width="115"></center> 
+		<p>Mulai dari fasilitas kesehatan mendasar hingga unit-unit perawatan khusus, RSUD Cideres dikenal sebagai pusat medis aneka guna yang terus tumbuh untuk memenuhi tuntutan zaman. </p>
+		<center><a href="#">Details</a></center>
+	</div>
+	</div><!-- /toggle -->
+	</div><!-- /col md 4 -->
+	<div class="col-md-4">
+	<div class="roll-toggle  justin">
+		<h3 class="toggle-title" align="center">Penunjang Medis</h3>
+	<div class="toggle-content">
+	<div class="clearfix">
+		<center><img class="alignleft" src="images/2-1.jpg" alt="image" width="115"></center> 
+		<p>Kami menyediakan ruang-ruang khusus kepada para pasien untuk menjalankan berbagai kenyamanan dan senantiasa menyediakan kebutuhan yang senantiasa menjaga performa mereka. </p>
+		<center><a href="#">Details</a></center>
+	</div>
+	</div>
+	</div><!-- /.toggle -->
+	</div><!-- /col md 4 -->
+	<div class="col-md-4">
+	<div class="roll-toggle justin">
+		<h3 class="toggle-title" align="center">Rawat Inap</h3>
+	<div class="toggle-content justin">
+	<div class="clearfix">
+		<center><img class="alignleft" src="images/1-1.jpg" alt="image" width="115"></center> 
+		<p>Kami berupaya memberikan pelayanan keperawatan yang menyeluruh yaitu bio-psiko sosio kultural dan spiritual sesuai kebutuhan pasien berdasarkan visi, misi dan falsafah keperawatan. </p>
+		<center><a href="#">Details</a></center>
+	</div>
+	</div>
+	</div><!-- /.toggle -->
+	</div><!-- /.col md 4 -->
+	</div><!-- /.col-md-12 -->
+	</div><!-- /.row -->
+	</div>
+	</section>
+
+	<section class="roll-section piecharts parallax background-overlay-color" data-stellar-background-ratio="0.7" style="background-position: 50% -856.636px; background-image: url(images/bg-section-2.jpg); background-color: skyblue">
+	<div class="container">
+	<div class="row snow">
+	<div class="col-md-12 col-sm-12">
+	<div class="roll-titlebox text-center">
+<h3 style="color:white;">Hasil survei kepuasan pelayanan RSUD Cideres tahun 2018</h3>
+	</div>
+	</div>
+	<div class="col-md-4 col-sm-6">
+	<div class="" style="width:200px;height:200px;border:8px solid white;margin:0 auto;border-radius:50%;padding:10px;">
+		<h5 style="text-align: center;padding-top: 25px;color: #ffde17;font-weight: 900;font-size: 30px;">70.57%</h5>
+		<hr style="height: 10px;background-color: white;">
+		<h5 style="text-align: center;padding-top: 5px;color: white;font-weight: 900;font-size: 30px;">71.22%</h5>
+	</div>
+		<h5 style="text-align: center;font-size: 20px;color: #fff;margin: 26px 0 0;">Rawat Jalan</h5>
+	<div class="roll-spacer h45 hide-on-desktop"></div>
+	</div><!-- /.col-md-3 -->
+	<div class="col-md-4 col-sm-6">
+	<div class="" style="width:200px;height:200px;border:8px solid white;margin:0 auto;border-radius:50%;padding:10px;">
+		<h5 style="text-align: center;padding-top: 25px;color: #ffde17;font-weight: 900;font-size: 30px;">71.26%</h5>
+		<hr style="height: 10px;background-color: white;">
+		<h5 style="text-align: center;padding-top: 5px;color: white;font-weight: 900;font-size: 30px;">73.37%</h5>
+	</div>
+		<h5 style="text-align: center;font-size: 20px;color: #fff;margin: 26px 0 0;">Rawat Inap</h5>
+	<div class="roll-spacer h45 hide-on-desktop"></div>
+	</div><!-- /.col-md-3 -->
+	<div class="col-md-4 col-sm-6">
+	<div class="" style="width:200px;height:200px;border:8px solid white;margin:0 auto;border-radius:50%;padding:10px;">
+		<h5 style="text-align: center;padding-top: 25px;color: #ffde17;font-weight: 900;font-size: 30px;">69.71%</h5>
+		<hr style="height: 10px;background-color: white;">
+		<h5 style="text-align: center;padding-top: 5px;color: white;font-weight: 900;font-size: 20px;">Progress</h5>
+	</div>
+		<h5 style="text-align: center;font-size: 20px;color: #fff;margin: 26px 0 0;">Penunjang Medis</h5>
+		<div class="roll-spacer h45 hide-on-desktop"></div>
+	</div><!-- /.col-md-3 -->
+	</div><!-- /.row -->
+	</div><!-- /.container -->
+	</section>
+
+
+	 <div class="col-md-12 emergency-footer " style="background: red;padding: 15px;text-align: center;margin-bottom:0px;">
+    	<a href="#" class="putihbgt" style="font-size:17px;  color: white;">Emergency Call  (0233) 662082</a>
+    </div>
+ <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-3">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">RSUD Cideres</h2>
+              <p>Jl. Raya Cideres - Kadipaten No. 180</p>
+              <p>Bojong Cideres Kec. Dawuan</p>
+              <p>Kab. Majalengka 45453</p>
+              <p>Telp. (0233) 661003</p>
+              <p>Fax. (0233) 662082</p>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="tentang.html" class="py-2 d-block">Tentang</a></li>
+                <li><a href="index.html" class="py-2 d-block">Home</a></li>
+                <li><a href="layanan.html" class="py-2 d-block">Layanan</a></li>
+                <li><a href="contact.html" class="py-2 d-block">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-4 pr-md-4">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Blog News</h2>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/PIN.jpg);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="pin.html">Sukseskan Pekan Imunisasi Nasional (PIN) Tahun 2018</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> Nov 01, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span> 01</a></div>
+                  </div>
+                </div>
+              </div>
+              <div class="block-21 mb-4 d-flex">
+                <a class="blog-img mr-4" style="background-image: url(images/212_global_aids_funding.png);"></a>
+                <div class="text">
+                  <h3 class="heading"><a href="aids.html">WHO: Wabah AIDS Dapat Diakhiri Tahun 2030</a></h3>
+                  <div class="meta">
+                    <div><a href="#"><span class="icon-calendar"></span> Nov 05, 2018</a></div>
+                    <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                    <div><a href="#"><span class="icon-chat"></span>01</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Regional Address</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><span class="icon icon-map-marker"></span><span class="text">Indonesia, Jawa Barat, Majalengka</span></li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">(0233) 662082</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@rscideres.com</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+                 <p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | RSUD CIDERES MAJALENGKA <i class="icon-heart" aria-hidden="true"></i>
+      </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+   
+
+  
+  <!-- Modal -->
+  <div class="modal fade" id="modalRequest" tabindex="-1" role="dialog" aria-labelledby="modalRequestLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalRequestLabel"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form action="#">
+            <div class="form-group">
+              <!-- <label for="appointment_name" class="text-black">Full Name</label> -->
+              <input type="text" class="form-control" id="appointment_name" placeholder="Full Name">
+            </div>
+            <div class="form-group">
+              <!-- <label for="appointment_email" class="text-black">Email</label> -->
+              <input type="text" class="form-control" id="appointment_email" placeholder="Email">
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="form-group">
+                  <!-- <label for="appointment_date" class="text-black">Date</label> -->
+                  <input type="text" class="form-control appointment_date" placeholder="Date">
+                </div>    
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <!-- <label for="appointment_time" class="text-black">Time</label> -->
+                  <input type="text" class="form-control appointment_time" placeholder="Time">
+                </div>
+              </div>
+            </div>
+            
+
+            <div class="form-group">
+              <!-- <label for="appointment_message" class="text-black">Message</label> -->
+              <textarea name="" id="appointment_message" class="form-control" cols="30" rows="10" placeholder="Message"></textarea>
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Make an Appointment" class="btn btn-primary">
+            </div>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+
+
+  <!-- jQuery (necessary for Bootstrap's 3 JavaScript plugins) -->
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
